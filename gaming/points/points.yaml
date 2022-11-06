@@ -1,0 +1,1462 @@
+matrix_outer_bottom:
+    x: 0
+    'y': 0
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_outer_bottom
+        colrow: outer_bottom
+        col: &ref_0
+            stagger: 0
+            spread: 0
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: outer
+        row: bottom
+        mirrored: false
+matrix_outer_home:
+    x: 0
+    'y': 19
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_outer_home
+        colrow: outer_home
+        col: *ref_0
+        row: home
+        mirrored: false
+matrix_outer_top:
+    x: 0
+    'y': 38
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_outer_top
+        colrow: outer_top
+        col: *ref_0
+        row: top
+        mirrored: false
+matrix_outer_number:
+    x: 0
+    'y': 57
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_outer_number
+        colrow: outer_number
+        col: *ref_0
+        row: number
+        mirrored: false
+matrix_pinky_bottom:
+    x: 19
+    'y': 0
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_pinky_bottom
+        colrow: pinky_bottom
+        col: &ref_1
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: pinky
+        row: bottom
+        mirrored: false
+matrix_pinky_home:
+    x: 19
+    'y': 19
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_pinky_home
+        colrow: pinky_home
+        col: *ref_1
+        row: home
+        mirrored: false
+matrix_pinky_top:
+    x: 19
+    'y': 38
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_pinky_top
+        colrow: pinky_top
+        col: *ref_1
+        row: top
+        mirrored: false
+matrix_pinky_number:
+    x: 19
+    'y': 57
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_pinky_number
+        colrow: pinky_number
+        col: *ref_1
+        row: number
+        mirrored: false
+matrix_ring_bottom:
+    x: 38
+    'y': 0
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_ring_bottom
+        colrow: ring_bottom
+        col: &ref_2
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: ring
+        row: bottom
+        mirrored: false
+matrix_ring_home:
+    x: 38
+    'y': 19
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_ring_home
+        colrow: ring_home
+        col: *ref_2
+        row: home
+        mirrored: false
+matrix_ring_top:
+    x: 38
+    'y': 38
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_ring_top
+        colrow: ring_top
+        col: *ref_2
+        row: top
+        mirrored: false
+matrix_ring_number:
+    x: 38
+    'y': 57
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_ring_number
+        colrow: ring_number
+        col: *ref_2
+        row: number
+        mirrored: false
+matrix_middle_bottom:
+    x: 57
+    'y': 0
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_middle_bottom
+        colrow: middle_bottom
+        col: &ref_3
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: middle
+        row: bottom
+        mirrored: false
+matrix_middle_home:
+    x: 57
+    'y': 19
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_middle_home
+        colrow: middle_home
+        col: *ref_3
+        row: home
+        mirrored: false
+matrix_middle_top:
+    x: 57
+    'y': 38
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_middle_top
+        colrow: middle_top
+        col: *ref_3
+        row: top
+        mirrored: false
+matrix_middle_number:
+    x: 57
+    'y': 57
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_middle_number
+        colrow: middle_number
+        col: *ref_3
+        row: number
+        mirrored: false
+matrix_index_bottom:
+    x: 76
+    'y': 0
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_index_bottom
+        colrow: index_bottom
+        col: &ref_4
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: index
+        row: bottom
+        mirrored: false
+matrix_index_home:
+    x: 76
+    'y': 19
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_index_home
+        colrow: index_home
+        col: *ref_4
+        row: home
+        mirrored: false
+matrix_index_top:
+    x: 76
+    'y': 38
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_index_top
+        colrow: index_top
+        col: *ref_4
+        row: top
+        mirrored: false
+matrix_index_number:
+    x: 76
+    'y': 57
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_index_number
+        colrow: index_number
+        col: *ref_4
+        row: number
+        mirrored: false
+matrix_inner_bottom:
+    x: 95
+    'y': 0
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_inner_bottom
+        colrow: inner_bottom
+        col: &ref_5
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: inner
+        row: bottom
+        mirrored: false
+matrix_inner_home:
+    x: 95
+    'y': 19
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_inner_home
+        colrow: inner_home
+        col: *ref_5
+        row: home
+        mirrored: false
+matrix_inner_top:
+    x: 95
+    'y': 38
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_inner_top
+        colrow: inner_top
+        col: *ref_5
+        row: top
+        mirrored: false
+matrix_inner_number:
+    x: 95
+    'y': 57
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: matrix_inner_number
+        colrow: inner_number
+        col: *ref_5
+        row: number
+        mirrored: false
+thumbfan_near_thumb:
+    x: 73
+    'y': -19
+    r: 0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: thumbfan_near_thumb
+        colrow: near_thumb
+        col:
+            rotate: 0
+            stagger: 0
+            spread: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: near
+        row: thumb
+        mirrored: false
+thumbfan_home_thumb:
+    x: 93.8813684
+    'y': -21.7095885
+    r: -15
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: thumbfan_home_thumb
+        colrow: home_thumb
+        col:
+            rotate: -15
+            origin:
+                - -9.350000000000001
+                - -8.5
+            stagger: 0
+            spread: 19
+            rows: {}
+            key: {}
+            name: home
+        row: thumb
+        mirrored: false
+thumbfan_far_thumb:
+    x: 114.2202822
+    'y': -29.3079639
+    r: -120
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: thumbfan_far_thumb
+        colrow: far_thumb
+        col:
+            rotate: -105
+            origin:
+                - 0.51
+                - -2.04
+            stagger: 0
+            spread: 19
+            rows: {}
+            key: {}
+            name: far
+        row: thumb
+        mirrored: false
+test_one_a:
+    x: 116.3452822
+    'y': -25.6273559
+    r: -120
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: test_one_a
+        colrow: one_a
+        col:
+            stagger: 0
+            spread: 0
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: one
+        row: a
+        mirrored: false
+test2_one_a:
+    x: 112.0952822
+    'y': -32.988571900000004
+    r: -120
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: test2_one_a
+        colrow: one_a
+        col:
+            stagger: 0
+            spread: 0
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: one
+        row: a
+        mirrored: false
+mirror_matrix_outer_bottom:
+    x: 288.7529778
+    'y': 0
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_outer_bottom
+        colrow: mirror_outer_bottom
+        col:
+            stagger: 0
+            spread: 0
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: outer
+        row: bottom
+        mirrored: true
+mirror_matrix_outer_home:
+    x: 288.7529778
+    'y': 19
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_outer_home
+        colrow: mirror_outer_home
+        col:
+            stagger: 0
+            spread: 0
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: outer
+        row: home
+        mirrored: true
+mirror_matrix_outer_top:
+    x: 288.7529778
+    'y': 38
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_outer_top
+        colrow: mirror_outer_top
+        col:
+            stagger: 0
+            spread: 0
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: outer
+        row: top
+        mirrored: true
+mirror_matrix_outer_number:
+    x: 288.7529778
+    'y': 57
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_outer_number
+        colrow: mirror_outer_number
+        col:
+            stagger: 0
+            spread: 0
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: outer
+        row: number
+        mirrored: true
+mirror_matrix_pinky_bottom:
+    x: 269.7529778
+    'y': 0
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_pinky_bottom
+        colrow: mirror_pinky_bottom
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: pinky
+        row: bottom
+        mirrored: true
+mirror_matrix_pinky_home:
+    x: 269.7529778
+    'y': 19
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_pinky_home
+        colrow: mirror_pinky_home
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: pinky
+        row: home
+        mirrored: true
+mirror_matrix_pinky_top:
+    x: 269.7529778
+    'y': 38
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_pinky_top
+        colrow: mirror_pinky_top
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: pinky
+        row: top
+        mirrored: true
+mirror_matrix_pinky_number:
+    x: 269.7529778
+    'y': 57
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_pinky_number
+        colrow: mirror_pinky_number
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: pinky
+        row: number
+        mirrored: true
+mirror_matrix_ring_bottom:
+    x: 250.7529778
+    'y': 0
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_ring_bottom
+        colrow: mirror_ring_bottom
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: ring
+        row: bottom
+        mirrored: true
+mirror_matrix_ring_home:
+    x: 250.7529778
+    'y': 19
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_ring_home
+        colrow: mirror_ring_home
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: ring
+        row: home
+        mirrored: true
+mirror_matrix_ring_top:
+    x: 250.7529778
+    'y': 38
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_ring_top
+        colrow: mirror_ring_top
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: ring
+        row: top
+        mirrored: true
+mirror_matrix_ring_number:
+    x: 250.7529778
+    'y': 57
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_ring_number
+        colrow: mirror_ring_number
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: ring
+        row: number
+        mirrored: true
+mirror_matrix_middle_bottom:
+    x: 231.7529778
+    'y': 0
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_middle_bottom
+        colrow: mirror_middle_bottom
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: middle
+        row: bottom
+        mirrored: true
+mirror_matrix_middle_home:
+    x: 231.7529778
+    'y': 19
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_middle_home
+        colrow: mirror_middle_home
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: middle
+        row: home
+        mirrored: true
+mirror_matrix_middle_top:
+    x: 231.7529778
+    'y': 38
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_middle_top
+        colrow: mirror_middle_top
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: middle
+        row: top
+        mirrored: true
+mirror_matrix_middle_number:
+    x: 231.7529778
+    'y': 57
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_middle_number
+        colrow: mirror_middle_number
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: middle
+        row: number
+        mirrored: true
+mirror_matrix_index_bottom:
+    x: 212.7529778
+    'y': 0
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_index_bottom
+        colrow: mirror_index_bottom
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: index
+        row: bottom
+        mirrored: true
+mirror_matrix_index_home:
+    x: 212.7529778
+    'y': 19
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_index_home
+        colrow: mirror_index_home
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: index
+        row: home
+        mirrored: true
+mirror_matrix_index_top:
+    x: 212.7529778
+    'y': 38
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_index_top
+        colrow: mirror_index_top
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: index
+        row: top
+        mirrored: true
+mirror_matrix_index_number:
+    x: 212.7529778
+    'y': 57
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_index_number
+        colrow: mirror_index_number
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: index
+        row: number
+        mirrored: true
+mirror_matrix_inner_bottom:
+    x: 193.7529778
+    'y': 0
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_inner_bottom
+        colrow: mirror_inner_bottom
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: inner
+        row: bottom
+        mirrored: true
+mirror_matrix_inner_home:
+    x: 193.7529778
+    'y': 19
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_inner_home
+        colrow: mirror_inner_home
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: inner
+        row: home
+        mirrored: true
+mirror_matrix_inner_top:
+    x: 193.7529778
+    'y': 38
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_inner_top
+        colrow: mirror_inner_top
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: inner
+        row: top
+        mirrored: true
+mirror_matrix_inner_number:
+    x: 193.7529778
+    'y': 57
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_matrix_inner_number
+        colrow: mirror_inner_number
+        col:
+            stagger: 0
+            spread: 19
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: inner
+        row: number
+        mirrored: true
+mirror_thumbfan_near_thumb:
+    x: 215.7529778
+    'y': -19
+    r: -0.0
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_thumbfan_near_thumb
+        colrow: mirror_near_thumb
+        col:
+            rotate: 0
+            stagger: 0
+            spread: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: near
+        row: thumb
+        mirrored: true
+mirror_thumbfan_home_thumb:
+    x: 194.8716094
+    'y': -21.7095885
+    r: 15
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_thumbfan_home_thumb
+        colrow: mirror_home_thumb
+        col:
+            rotate: -15
+            origin:
+                - -9.350000000000001
+                - -8.5
+            stagger: 0
+            spread: 19
+            rows: {}
+            key: {}
+            name: home
+        row: thumb
+        mirrored: true
+mirror_thumbfan_far_thumb:
+    x: 174.5326956
+    'y': -29.3079639
+    r: 120
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_thumbfan_far_thumb
+        colrow: mirror_far_thumb
+        col:
+            rotate: -105
+            origin:
+                - 0.51
+                - -2.04
+            stagger: 0
+            spread: 19
+            rows: {}
+            key: {}
+            name: far
+        row: thumb
+        mirrored: true
+mirror_test_one_a:
+    x: 172.4076956
+    'y': -25.6273559
+    r: 120
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_test_one_a
+        colrow: mirror_one_a
+        col:
+            stagger: 0
+            spread: 0
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: one
+        row: a
+        mirrored: true
+mirror_test2_one_a:
+    x: 176.6576956
+    'y': -32.988571900000004
+    r: 120
+    meta:
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        padding: 19
+        width: 1
+        height: 1
+        skip: false
+        asym: both
+        name: mirror_test2_one_a
+        colrow: mirror_one_a
+        col:
+            stagger: 0
+            spread: 0
+            rotate: 0
+            origin:
+                - 0
+                - 0
+            rows: {}
+            key: {}
+            name: one
+        row: a
+        mirrored: true

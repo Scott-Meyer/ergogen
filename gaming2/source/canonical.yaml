@@ -1,0 +1,82 @@
+points:
+    key:
+        padding: cy
+        footprints:
+            choc_hotswap:
+                type: choc
+                nets:
+                    from: '=column_net'
+                    to: GND
+                params:
+                    keycaps: true
+                    reverse: true
+                    hotswap: true
+            choc:
+                type: choc
+                anchor:
+                    rotate: 180
+                nets:
+                    from: '=column_net'
+                    to: GND
+                params:
+                    keycaps: true
+                    reverse: true
+    zones:
+        matrix:
+            anchor: null
+            columns:
+                outer: null
+                pinky: null
+                ring: null
+                middle: null
+                index: null
+                inner: null
+            rows:
+                bottom: null
+                home: null
+                top: null
+                number: null
+        thumbfan:
+            anchor:
+                ref: matrix_index_bottom
+                shift:
+                    - -3
+                    - -19
+            columns:
+                near:
+                    rotate: 0
+                home:
+                    rotate: -15
+                    origin:
+                        - '-0.55cy'
+                        - '-0.5cy'
+                far:
+                    rotate: -105
+                    origin:
+                        - +0.03cy
+                        - '-0.12cy'
+            rows:
+                thumb: null
+        test:
+            anchor:
+                ref: thumbfan_far_thumb
+                shift:
+                    - '-0.25cy'
+                    - 0
+            rows:
+                a: null
+            columns:
+                one: null
+        test2:
+            anchor:
+                ref: thumbfan_far_thumb
+                shift:
+                    - 0.25cy
+                    - 0
+            rows:
+                a: null
+            columns:
+                one: null
+    mirror:
+        ref: matrix_pinky_home
+        distance: 250.7529778
