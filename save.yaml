@@ -14,12 +14,12 @@ units:
 
 points:
   key:
-    #padding: cy
+    padding: cy
     tags: 
       1u: true
     footprints:
       choc_hotswap:
-        type: chocv2
+        type: choc
         params:
           hotswap: true
           reverse: true
@@ -276,7 +276,7 @@ outlines:
       main:
         type: outline
         name: pcb_cutout_composite
-        fillet: 2
+        fillet: 1
 
     pcb_cutout_debug:
       main:

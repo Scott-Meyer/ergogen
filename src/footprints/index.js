@@ -3,6 +3,7 @@ module.exports = {
     button: require('./button'),
     choc: require('./choc'),
     chocmini: require('./chocmini'),
+    chocv2: require('./chocv2'),
     diode: require('./diode'),
     jstph: require('./jstph'),
     jumper: require('./jumper'),
