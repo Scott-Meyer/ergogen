@@ -1,0 +1,42 @@
+points:
+  zones:
+    matrix:
+      key:
+        tags: [switch]
+        spread: u
+      columns:
+        left:
+          rows.extra.skip: true
+        pinky:
+          rows.extra.skip: true
+        ring:
+          key.stagger: 5
+          rows.extra.skip: true
+        middle:
+          key.stagger: 5
+          rows.extra.skip: true
+        index:
+          key.stagger: -8
+        right:
+          key.stagger: -4
+          rows.extra.skip: true
+      rows:
+        extra:
+        bottom:
+        home:
+        top:
+        number:
+    thumbfan:
+      anchor:
+        ref: matrix_right_bottom
+        shift: [3, -u - 3.5]
+        rotate: -25
+      key:
+        tags: [switch]
+        spread: u
+      columns:
+        home:
+        far:
+          key.stagger: -6
+      rows:
+        thumb:
